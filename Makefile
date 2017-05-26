@@ -3,8 +3,8 @@
 .DEFAULT_GOAL := build
 
 
-run:
-	@env/bin/python3 src/main.py | env/bin/target-csv -c config.json
+my-ip:
+	@env/bin/my-ip | env/bin/target-csv -c config.json
 
 check-currency:
 	@env/bin/tap-fixerio | env/bin/target-csv -c config.json

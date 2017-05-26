@@ -28,4 +28,8 @@ setup(
         'target-csv',
         'tap-fixerio',
     ],
+    entry_points='''
+        [console_scripts]
+        my-ip=main:my_ip
+    ''',
 )

@@ -25,7 +25,7 @@ Run
 ---
 
 ```bash
-make run
+make my-ip
 ```
 
 Open my_ip.csv file to see the results.

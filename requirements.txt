@@ -4,6 +4,7 @@
 #
 #    pip-compile --output-file requirements.txt setup.py requirements-dev.in
 #
+-e .
 backoff==1.3.2            # via tap-fixerio
 click==6.7                # via pip-tools
 fancycompleter==0.7       # via pdbpp
