@@ -24,6 +24,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'backoff',
+        'requests',
         'singer-python',
         'target-csv',
         'tap-fixerio',
@@ -31,5 +33,6 @@ setup(
     entry_points='''
         [console_scripts]
         my-ip=main:my_ip
+        tap-weather-forecast=weather_forecast:main
     ''',
 )

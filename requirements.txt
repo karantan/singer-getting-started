@@ -5,7 +5,7 @@
 #    pip-compile --output-file requirements.txt setup.py requirements-dev.in
 #
 -e .
-backoff==1.3.2            # via tap-fixerio
+backoff==1.3.2
 click==6.7                # via pip-tools
 fancycompleter==0.7       # via pdbpp
 first==2.0.1              # via pip-tools
@@ -16,7 +16,7 @@ pdbpp==0.8.3
 pip-tools==1.9.0
 pipdeptree==0.10.1
 pygments==2.2.0           # via pdbpp
-requests==2.13.0          # via tap-fixerio
+requests==2.13.0
 singer-python==0.1.0
 six==1.10.0               # via pip-tools
 tap-fixerio==0.1.2

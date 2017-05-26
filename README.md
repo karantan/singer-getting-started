@@ -38,6 +38,31 @@ make check-currency
 
 Open exchange_rate.csv file to see the results.
 
+
+Run weather forecast
+--------------------
+
+To run `make weather-forecast` we first need to create an account on
+[openweathermap.org](openweathermap.org) to obtain API key for
+`api.openweathermap.org`. Once we get it we need to update
+`weather-config.json` file:
+
+```
+{
+    "location": "<location e.g. `London`>",
+    "appid": "<openweathermap API KEY>"
+}
+```
+
+And then we can just run:
+
+```bash
+make weather-forecast
+```
+
+Open weather_forecast.csv file to see the results.
+
+
 Contribute
 ----------
 

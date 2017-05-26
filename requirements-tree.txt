@@ -16,7 +16,15 @@ setuptools==35.0.2
     - pyparsing [required: Any, installed: 2.2.0]
     - six [required: Any, installed: 1.10.0]
   - six [required: >=1.6.0, installed: 1.10.0]
-target-csv==0.2.2
-  - jsonschema [required: ==2.6.0, installed: 2.6.0]
-  - singer-python [required: ==0.1.0, installed: 0.1.0]
+singer-getting-started==0.1.0
+  - backoff [required: Any, installed: 1.3.2]
+  - requests [required: Any, installed: 2.13.0]
+  - singer-python [required: Any, installed: 0.1.0]
+  - tap-fixerio [required: Any, installed: 0.1.2]
+    - backoff [required: ==1.3.2, installed: 1.3.2]
+    - requests [required: ==2.13.0, installed: 2.13.0]
+    - singer-python [required: >=0.1.0, installed: 0.1.0]
+  - target-csv [required: Any, installed: 0.2.2]
+    - jsonschema [required: ==2.6.0, installed: 2.6.0]
+    - singer-python [required: ==0.1.0, installed: 0.1.0]
 wheel==0.29.0

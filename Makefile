@@ -9,6 +9,9 @@ my-ip:
 check-currency:
 	@env/bin/tap-fixerio | env/bin/target-csv -c config.json
 
+weather-forecast:
+	@env/bin/tap-weather-forecast -c weather-config.json | env/bin/target-csv -c config.json
+
 build:
 	virtualenv -p python3.6 env
 	@env/bin/pip install -r requirements.txt
