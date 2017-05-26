@@ -30,6 +30,13 @@ make run
 
 Open my_ip.csv file to see the results.
 
+Now let's check how tap-fixerio + target-csv works:
+
+```bash
+make check-currency
+```
+
+Open exchange_rate.csv file to see the results.
 
 Contribute
 ----------

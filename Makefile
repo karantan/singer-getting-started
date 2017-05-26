@@ -6,8 +6,11 @@
 run:
 	@env/bin/python3 src/main.py | env/bin/target-csv -c config.json
 
+check-currency:
+	@env/bin/tap-fixerio | env/bin/target-csv -c config.json
+
 build:
-	virtualenv -p python3 env
+	virtualenv -p python3.6 env
 	@env/bin/pip install -r requirements.txt
 	@if [ -f requirements-dev.txt ]; then env/bin/pip install -r requirements-dev.txt; fi;
 
