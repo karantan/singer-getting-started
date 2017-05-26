@@ -1,0 +1,22 @@
+isort==4.2.5
+pdbpp==0.8.3
+  - fancycompleter [required: >=0.2, installed: 0.7]
+  - ordereddict [required: Any, installed: 1.1]
+  - pygments [required: Any, installed: 2.2.0]
+  - wmctrl [required: Any, installed: 0.3]
+pip-tools==1.9.0
+  - click [required: >=6, installed: 6.7]
+  - first [required: Any, installed: 2.0.1]
+  - six [required: Any, installed: 1.10.0]
+pipdeptree==0.10.1
+  - pip [required: >=6.0.0, installed: 9.0.1]
+setuptools==35.0.2
+  - appdirs [required: >=1.4.0, installed: 1.4.3]
+  - packaging [required: >=16.8, installed: 16.8]
+    - pyparsing [required: Any, installed: 2.2.0]
+    - six [required: Any, installed: 1.10.0]
+  - six [required: >=1.6.0, installed: 1.10.0]
+target-csv==0.2.2
+  - jsonschema [required: ==2.6.0, installed: 2.6.0]
+  - singer-python [required: ==0.1.0, installed: 0.1.0]
+wheel==0.29.0
